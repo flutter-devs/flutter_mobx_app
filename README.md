@@ -10,9 +10,7 @@ A flutter app to showcase online hacker news app using  `Mobx`  architecture.
 # iOS Screens
 <img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-1.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-2.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-3.png">
 
-##  MobX  ([https://pub.dev/packages/mobx](https://pub.dev/packages/mobx))
-
-[![pub package](https://img.shields.io/pub/v/mobx.svg?label=mobx&color=blue)](https://pub.dartlang.org/packages/mobx)
+##  MobX [![pub package](https://img.shields.io/pub/v/mobx.svg?label=mobx&color=blue)](https://pub.dartlang.org/packages/mobx)
 [![pub package](https://img.shields.io/pub/v/flutter_mobx.svg?label=flutter_mobx&color=blue)](https://pub.dartlang.org/packages/flutter_mobx)
 [![pub package](https://img.shields.io/pub/v/mobx_codegen.svg?label=mobx_codegen&color=blue)](https://pub.dartlang.org/packages/mobx_codegen)
 
