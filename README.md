@@ -1,16 +1,110 @@
-# fluttermobxdemo
 
-Flutter Application using Mobx
 
-## Getting Started
+Skip to content
+Using Aeologic technologies pvt ltd Mail with screen readers
 
-This project is a starting point for a Flutter application.
+1 of 5,633
+mobx module for github posting
+Inbox
+x
 
-A few resources to get you started if this is your first Flutter project:
+Mohit Joshi
+AttachmentsTue, Mar 31, 3:00 PM (2 days ago)
+Greetings of the day!!! Dear sir , pfa attached herewith zippedcode , screenshots, gif , readme doc file that needs to be upload in github 1. readme doc file re
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Yashwant Kumar
+Attachments
+3:48 PM (0 minutes ago)
+to me
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+---------- Forwarded message ---------
+From: Mohit Joshi <mohit@aeologic.com>
+Date: Tue, Mar 31, 2020 at 8:39 PM
+Subject: Re: mobx module for github posting
+To: Yashwant Kumar <yashwant@aeologic.com>
+
+
+updated readme.md as per suggestions
+
+On Tue, Mar 31, 2020 at 8:28 PM Mohit Joshi <mohit@aeologic.com> wrote:
+please update readme with this readme.md file
+--
+Mohit Joshi
+
+
+--
+Mohit Joshi
+
+
+--
+Thanks and Regards,
+
+
+
+photo 		
+Yashwant Kumar Gaurav
+Software Engineer, Aeologic Technologies Pvt. Ltd.
++91 9555 245 122
+
+aeologic.com | Skype: yashwant@aeologic.com
+
+		
+Transforming culture using Technology!
+Ideation | Innovation | Collaboration | Solution
+Attachments area
+
+﻿# Flutter Hacker News App using MobX
+
+A flutter app to showcase online hacker news app using  `Mobx`  architecture. 
+
+Android Screens
+
+iOS Screens
+
+
+MobX  ([https://pub.dev/packages/mobx](https://pub.dev/packages/mobx))
+
+> MobX is a  a state-management library that makes it simple to connect the reactive data of your application with the UI. As the application-developer, you focus purely on what reactive-data needs to be consumed in the UI without worrying about keeping the two in sync.
+
+It's not really magic but it does have some smarts around what is being consumed (**observables**) and where (**reactions**), and automatically tracks it for you. When the  _observables_  change, all  _reactions_  are re-run. What's interesting is that these reactions can be anything from a simple console log, a network call to re-rendering the UI.
+
+A mixture between dependency injection (DI) and state management, built with widgets for widgets. At the heart of MobX are three important concepts: 
+::   **Observables**, **Actions** and **Reactions**.
+
+> MobX has been a very effective library for the JavaScript apps and this port to the Dart language aims to bring the same levels of productivity.’
+
+**Core Concepts**
+
+> **State in MobX = Core State + Derived State**
+
+![](https://lh4.googleusercontent.com/1GgbtkEGuGJrxq8m_j35pCK4wjUkv_-DEQ1SdWOp4I88So4gJlTCrWhIKoM7CqXlLs4enmQUWGasHu__AgFZI0AAnSNkWL-tu28RlFcGVfV6Ke0JlN01FU5Ed4C3bCjWuAWDiFl7)**
+***MobX Properties :***
+
+ 1. Observables:
+ _Observables_ are variables which represent the reactive-state of our application. They are also called ‘Event Generators’ because the state or value of an observable changes from time to time.
+ 2. Actions:
+ Actions are functions that decide how to mutate the Observables As a reason of this property, they are also called ‘Mutators’.
+ 3. Computed Observables:
+   Computed Observables are values which depend upon observables and    get triggered when the observable they depend on, changes its state.
+ 4. Observer:
+ Observer Widgets are a special type of widget which acts as a listener to the observable properties being rendered on the screen, and simply changes the state and re-renders them whenever any change is observed.
+
+***Pros of MobX***::
+-   UI logic and business logic are clearly separated
+-  Code Maintainablity and Code Scalability is not a utmost concern as it      Automatically tack updates.
+-  MobX Learning curve is much Easier than other state management.
+-  MobX is customizable and gives flexibility to customize **observables**, according to your need to boost the performance and stability.
+-  **MobX** is a **Battle tested** state management library **Transparently Functional Reactive programming** (TFRP). The design principle is very simple:Anything that can be derived from the Application state, should be derived Automatically : UI, data serialization, server communication, etc..
+
+## React & MobX
+
+`React` _and_  `MobX` _together are a Prominent combination._ `React` _renders the application state by providing mechanisms to translate it into a tree of renderable components whereas_ `MobX` _provides the mechanism to store and update the application state that React then further uses._
+
+_Both_ `React` _and_ `MobX` _provide optimal and unique solutions to common problems in Application development. React provides mechanisms to optimally render the UI by using a virtual DOM that reduces the number of costly DOM mutations._ `MobX` _provides mechanisms to optimally synchronize application state with_ `React` _components by using a reactive virtual dependency state graph that is only updated when strictly needed and is never stale._
+
+To read more about Mobx , see the official [documentation](https://pub.dev/packages/mobx).
+See our blog contribution on MobX , [mobx in flutter](https://medium.com/flutterdevs/working-with-mobx-in-flutter-6a56dbff7027)
+new.md
+Displaying new.md.
