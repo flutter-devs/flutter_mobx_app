@@ -2,9 +2,12 @@
 
 A flutter app to showcase online hacker news app using  `Mobx`  architecture. 
 
-Android Screens
+# Android Screens
+<img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/android/screen1.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/android/screen2.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/android/screen3.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/android/screen4.png">
 
-iOS Screens
+
+# iOS Screens
+<img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/ios/screen1.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/ios/screen2.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/ios/screen3.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/ios/screen4.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_shopping_portal/blob/master/assets/screens/ios/screen5.png">
 
 
 MobX  ([https://pub.dev/packages/mobx](https://pub.dev/packages/mobx))
