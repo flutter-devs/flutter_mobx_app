@@ -14,7 +14,7 @@ A flutter app to showcase online hacker news app using  `Mobx`  architecture.
 <img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/ios/ios-2.png">
 <img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/ios/ios-3.png">
 
-MobX  ([https://pub.dev/packages/mobx](https://pub.dev/packages/mobx))
+##  MobX  ([https://pub.dev/packages/mobx](https://pub.dev/packages/mobx))
 
 > MobX is a  a state-management library that makes it simple to connect the reactive data of your application with the UI. As the application-developer, you focus purely on what reactive-data needs to be consumed in the UI without worrying about keeping the two in sync.
 
