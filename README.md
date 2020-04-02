@@ -1,6 +1,6 @@
-# Flutter Shopping App using Provider
+# Flutter Hacker News App using MobX
 
-A flutter app to showcase online shopping portal using `Provider` architecture. `FireStore` has been used as backend for this app.
+A flutter app to showcase online hacker news app using  `Mobx`  architecture.
 
 # Android Screens
 <img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/gif-4.png">
@@ -14,44 +14,45 @@ A flutter app to showcase online shopping portal using `Provider` architecture. 
 <img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/ios/ios-2.png">
 <img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/ios/ios-3.png">
 
+MobX  ([https://pub.dev/packages/mobx](https://pub.dev/packages/mobx))
 
-# Provider  [![pub package](https://img.shields.io/pub/v/provider.svg)](https://pub.dev/packages/provider)
+> MobX is a  a state-management library that makes it simple to connect the reactive data of your application with the UI. As the application-developer, you focus purely on what reactive-data needs to be consumed in the UI without worrying about keeping the two in sync.
 
-Among multiple state management in flutter, `Provider` is now more powerful,  flixible and easy to undersand. It has the power of managing state in efficient manager by using  `Consumer` and `Selector` and now it can deals with `Stream` and `Future` also.
+It's not really magic but it does have some smarts around what is being consumed (**observables**) and where (**reactions**), and automatically tracks it for you. When the  _observables_  change, all  _reactions_  are re-run. What's interesting is that these reactions can be anything from a simple console log, a network call to re-rendering the UI.
 
-A mixture between dependency injection (DI) and state management, built with widgets for widgets.
+A mixture between dependency injection (DI) and state management, built with widgets for widgets. At the heart of MobX are three important concepts:
+::   **Observables**, **Actions** and **Reactions**.
 
-## *Why?*
-It purposefully uses widgets for DI/state management instead of dart-only classes like `Stream`. The reason is, widgets are very simple yet robust and scalable.
+> MobX has been a very effective library for the JavaScript apps and this port to the Dart language aims to bring the same levels of productivity.’
 
-## *Customizable*
-By using the power of provider we can make our own provider. `Provider` expose all the small components that makes a fully fledged provider.
+**Core Concepts**
 
-`Provider` includes below widgets for customizability:
--   `SingleChildCloneableWidget`, to make any widget works with  `MultiProvider`.
--   `InheritedProvider`, the generic  `InheritedWidget`  obtained when doing  `Provider.of`.
--   `DelegateWidget`/`BuilderDelegate`/`ValueDelegate`  to help handle the logic of "MyProvider() that creates an object" vs "MyProvider.value() that can update over time".
+> **State in MobX = Core State + Derived State**
 
-## *Pros of Provider*
+![](https://lh4.googleusercontent.com/1GgbtkEGuGJrxq8m_j35pCK4wjUkv_-DEQ1SdWOp4I88So4gJlTCrWhIKoM7CqXlLs4enmQUWGasHu__AgFZI0AAnSNkWL-tu28RlFcGVfV6Ke0JlN01FU5Ed4C3bCjWuAWDiFl7)**
+***MobX Properties :***
+
+ 1. Observables:
+ _Observables_ are variables which represent the reactive-state of our application. They are also called ‘Event Generators’ because the state or value of an observable changes from time to time.
+ 2. Actions:
+ Actions are functions that decide how to mutate the Observables As a reason of this property, they are also called ‘Mutators’.
+ 3. Computed Observables:
+   Computed Observables are values which depend upon observables and    get triggered when the observable they depend on, changes its state.
+ 4. Observer:
+ Observer Widgets are a special type of widget which acts as a listener to the observable properties being rendered on the screen, and simply changes the state and re-renders them whenever any change is observed.
+
+***Pros of MobX***::
 -   UI logic and business logic are clearly separated
--   Provider is customizable and gives flexibility to customize provider according to your need to boost the performance and stability.
--   Easy to understand and implement
--   Can be set up with unidirectional data flow without much difficulty, gaining the main benefit of Redux as well as provider is more powerful to handle global state.
--   Robustness, as it is harder to forget to handle the update scenario of a model/widget
+-  Code Maintainablity and Code Scalability is not a utmost concern as it      Automatically tack updates.
+-  MobX Learning curve is much Easier than other state management.
+-  MobX is customizable and gives flexibility to customize **observables**, according to your need to boost the performance and stability.
+-  **MobX** is a **Battle tested** state management library **Transparently Functional Reactive programming** (TFRP). The design principle is very simple:Anything that can be derived from the Application state, should be derived Automatically : UI, data serialization, server communication, etc..
 
-## *Existing providers*
+## React & MobX
 
-`provider` exposes a few different kinds of "provider" for different types of objects.
+`React` _and_  `MobX` _together are a Prominent combination._ `React` _renders the application state by providing mechanisms to translate it into a tree of renderable components whereas_ `MobX` _provides the mechanism to store and update the application state that React then further uses._
 
-The complete list of all the objects available is [here](https://pub.dev/documentation/provider/latest/provider/provider-library.html)
+_Both_ `React` _and_ `MobX` _provide optimal and unique solutions to common problems in Application development. React provides mechanisms to optimally render the UI by using a virtual DOM that reduces the number of costly DOM mutations._ `MobX` _provides mechanisms to optimally synchronize application state with_ `React` _components by using a reactive virtual dependency state graph that is only updated when strictly needed and is never stale._
 
-| name                                                                                                                          | description                                                                                                                                                            |
-| ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Provider](https://pub.dartlang.org/documentation/provider/latest/provider/Provider-class.html)                               | The most basic form of provider. It takes a value and exposes it, whatever the value is.                                                                               |
-| [ListenableProvider](https://pub.dartlang.org/documentation/provider/latest/provider/ListenableProvider-class.html)           | A specific provider for Listenable object. ListenableProvider will listen to the object and ask widgets which depend on it to rebuild whenever the listener is called. |
-| [ChangeNotifierProvider](https://pub.dartlang.org/documentation/provider/latest/provider/ChangeNotifierProvider-class.html)   | A specification of ListenableProvider for ChangeNotifier. It will automatically call `ChangeNotifier.dispose` when needed.                                             |
-| [ValueListenableProvider](https://pub.dartlang.org/documentation/provider/latest/provider/ValueListenableProvider-class.html) | Listen to a ValueListenable and only expose `ValueListenable.value`.                                                                                                   |
-| [StreamProvider](https://pub.dartlang.org/documentation/provider/latest/provider/StreamProvider-class.html)                   | Listen to a Stream and expose the latest value emitted.                                                                                                                |
-| [FutureProvider](https://pub.dartlang.org/documentation/provider/latest/provider/FutureProvider-class.html)                   | Takes a `Future` and updates dependents when the future completes.
-
-To read more about `provider`, see the [documentation](https://pub.dev/documentation/provider/latest/).
+To read more about Mobx , see the official [documentation](https://pub.dev/packages/mobx).
+See our blog contribution on MobX , [mobx in flutter](https://medium.com/flutterdevs/working-with-mobx-in-flutter-6a56dbff7027)
