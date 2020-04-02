@@ -3,16 +3,16 @@
 A flutter app to showcase online hacker news app using  `Mobx`  architecture.
 
 # Android Screens
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/gif-4.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/screen.gif">
 
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/android/and-1.png">
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/android/and-2.png">
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/android/and-3.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-1.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-2.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-3.png">
 
 # iOS Screens
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/ios/ios-1.png">
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/ios/ios-2.png">
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screens/ios/ios-3.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-1.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-2.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-3.png">
 
 ##  MobX  ([https://pub.dev/packages/mobx](https://pub.dev/packages/mobx))
 
