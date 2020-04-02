@@ -1,61 +1,4 @@
-
-
-Skip to content
-Using Aeologic technologies pvt ltd Mail with screen readers
-
-1 of 5,633
-mobx module for github posting
-Inbox
-x
-
-Mohit Joshi
-AttachmentsTue, Mar 31, 3:00 PM (2 days ago)
-Greetings of the day!!! Dear sir , pfa attached herewith zippedcode , screenshots, gif , readme doc file that needs to be upload in github 1. readme doc file re
-
-Yashwant Kumar
-Attachments
-3:48 PM (0 minutes ago)
-to me
-
-
-
----------- Forwarded message ---------
-From: Mohit Joshi <mohit@aeologic.com>
-Date: Tue, Mar 31, 2020 at 8:39 PM
-Subject: Re: mobx module for github posting
-To: Yashwant Kumar <yashwant@aeologic.com>
-
-
-updated readme.md as per suggestions
-
-On Tue, Mar 31, 2020 at 8:28 PM Mohit Joshi <mohit@aeologic.com> wrote:
-please update readme with this readme.md file
---
-Mohit Joshi
-
-
---
-Mohit Joshi
-
-
---
-Thanks and Regards,
-
-
-
-photo 		
-Yashwant Kumar Gaurav
-Software Engineer, Aeologic Technologies Pvt. Ltd.
-+91 9555 245 122
-
-aeologic.com | Skype: yashwant@aeologic.com
-
-		
-Transforming culture using Technology!
-Ideation | Innovation | Collaboration | Solution
-Attachments area
-
-﻿# Flutter Hacker News App using MobX
+# Flutter Hacker News App using MobX
 
 A flutter app to showcase online hacker news app using  `Mobx`  architecture. 
 
@@ -106,5 +49,3 @@ _Both_ `React` _and_ `MobX` _provide optimal and unique solutions to common prob
 
 To read more about Mobx , see the official [documentation](https://pub.dev/packages/mobx).
 See our blog contribution on MobX , [mobx in flutter](https://medium.com/flutterdevs/working-with-mobx-in-flutter-6a56dbff7027)
-new.md
-Displaying new.md.
