@@ -13,6 +13,7 @@
 
 > 
 One of the hardest problems to solve in large front-end applications is state management. While there are several approaches to solving state management problems, [Redux](https://redux.js.org/) and [MobX](https://mobx.js.org/getting-started.html) are two of the most popular external libraries used to address state management in front-end applications. 
+
 Redux is a popular state management solution that is a combination of both Flux and functional programming concepts whereas MobX is  a state-management library that makes it simple to connect the  data of your application with the UI. Built with widgets at the heart of MobX are three important concepts:
                  **Observables**,  **Actions**  and  **Reactions**.
 
