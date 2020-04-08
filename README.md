@@ -1,12 +1,11 @@
-# [](https://github.com/flutter-devs/flutter_mobx_app#android-screens)Android Screens
+# Android Screens
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/screen.gif">
 
-[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/screen.gif)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/screen.gif)
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-1.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-2.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-3.png">
 
-[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/android/and-1.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-1.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/android/and-2.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-2.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/android/and-3.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-3.png)
+# iOS Screens
+<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-1.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-2.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-3.png">
 
-# [](https://github.com/flutter-devs/flutter_mobx_app#ios-screens)iOS Screens
-
-[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/ios/ios-1.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-1.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/ios/ios-2.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-2.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/ios/ios-3.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-3.png)
 
 ## [](https://github.com/flutter-devs/flutter_mobx_app#mobx)MobX
 
