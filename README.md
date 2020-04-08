@@ -1,57 +1,92 @@
-# Flutter Hacker News App using MobX
+# [](https://github.com/flutter-devs/flutter_mobx_app#android-screens)Android Screens
 
-A flutter app to showcase online hacker news app using  `Mobx`  architecture.
+[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/screen.gif)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/screen.gif)
 
-# Android Screens
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/screen.gif">
+[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/android/and-1.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-1.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/android/and-2.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-2.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/android/and-3.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-3.png)
 
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-1.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-2.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/android/and-3.png">
+# [](https://github.com/flutter-devs/flutter_mobx_app#ios-screens)iOS Screens
 
-# iOS Screens
-<img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-1.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-2.png"><img height="480px" src="https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-3.png">
+[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/ios/ios-1.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-1.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/ios/ios-2.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-2.png)[![](https://github.com/flutter-devs/flutter_mobx_app/raw/master/screen/ios/ios-3.png)](https://github.com/flutter-devs/flutter_mobx_app/blob/master/screen/ios/ios-3.png)
 
-##  MobX 
-[![pub package](https://img.shields.io/pub/v/mobx.svg?label=mobx&color=blue)](https://pub.dartlang.org/packages/mobx)
-[![pub package](https://img.shields.io/pub/v/flutter_mobx.svg?label=flutter_mobx&color=blue)](https://pub.dartlang.org/packages/flutter_mobx)
-[![pub package](https://img.shields.io/pub/v/mobx_codegen.svg?label=mobx_codegen&color=blue)](https://pub.dartlang.org/packages/mobx_codegen)
+## [](https://github.com/flutter-devs/flutter_mobx_app#mobx)MobX
 
-> MobX is a  a state-management library that makes it simple to connect the reactive data of your application with the UI. As the application-developer, you focus purely on what reactive-data needs to be consumed in the UI without worrying about keeping the two in sync.
+[![pub package](https://camo.githubusercontent.com/fddd974f163ca56e76cec3d83f19584ea064d74b/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f6d6f62782e7376673f6c6162656c3d6d6f627826636f6c6f723d626c7565)](https://pub.dartlang.org/packages/mobx)  [![pub package](https://camo.githubusercontent.com/ac2bbe097e052d81748747e26192af55b583bf58/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f666c75747465725f6d6f62782e7376673f6c6162656c3d666c75747465725f6d6f627826636f6c6f723d626c7565)](https://pub.dartlang.org/packages/flutter_mobx)  [![pub package](https://camo.githubusercontent.com/0c9eaea968102167a8d3d0b393427c0dcff50921/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f6d6f62785f636f646567656e2e7376673f6c6162656c3d6d6f62785f636f646567656e26636f6c6f723d626c7565)](https://pub.dartlang.org/packages/mobx_codegen)
 
-It's not really magic but it does have some smarts around what is being consumed (**observables**) and where (**reactions**), and automatically tracks it for you. When the  _observables_  change, all  _reactions_  are re-run. What's interesting is that these reactions can be anything from a simple console log, a network call to re-rendering the UI.
+> 
+One of the hardest problems to solve in large front-end applications is state management. While there are several approaches to solving state management problems, [Redux](https://redux.js.org/) and [MobX](https://mobx.js.org/getting-started.html) are two of the most popular external libraries used to address state management in front-end applications.Redux is a popular state management solution that is a combination of both Flux and functional programming concepts whereas MobX is  a state-management library that makes it simple to connect the  data of your application with the UI. Built with widgets at the heart of MobX are three important concepts:
+                 **Observables**,  **Actions**  and  **Reactions**.
 
-A mixture between dependency injection (DI) and state management, built with widgets for widgets. At the heart of MobX are three important concepts:
-::   **Observables**, **Actions** and **Reactions**.
+***
+# Why mobX?
+**MobX** makes it easy to separate User Interface from business logic making coding process  fast, testable & reusable.
+Building a quality application will always need up a proper state management architecture.
+As developers we want to:
 
-> MobX has been a very effective library for the JavaScript apps and this port to the Dart language aims to bring the same levels of productivity.’
+-   know what state our application is in at any point in time.
+-   easily test every case to make sure our app is responding appropriately.
+-   record every single user interaction in our application so that we can make data-driven decisions.
+-   work as efficiently as possible and reuse components both within our application and across other applications.
+- working across teams aligned under same code conventions & patterns.
+-   develop quick and well performant apps .
 
+Choosing among the various state management solutions can always be a difficult task but we need to optimize our goals and In-turn figure out the most optimal solution for the project:
+
+**mobX** was designed with three core values in mind:
+
+-   **Simple**
+    
+    -   Easy to understand & can be used by developers with varying skill levels.
+-   **Performant**
+    
+    -   Help make amazing, complex applications by composing them of smaller components.
+-   **Testable**
+    
+    -   Easily test every aspect of an application so that we can iterate with confidence.
+
+**mobx** attempts to easen out the code maintainability process and revolves around the phenomenon that with the help of application state anything can be derived automatically .
+
+***
 **Core Concepts**
 
-> **State in MobX = Core State + Derived State**
 
-![](https://lh4.googleusercontent.com/1GgbtkEGuGJrxq8m_j35pCK4wjUkv_-DEQ1SdWOp4I88So4gJlTCrWhIKoM7CqXlLs4enmQUWGasHu__AgFZI0AAnSNkWL-tu28RlFcGVfV6Ke0JlN01FU5Ed4C3bCjWuAWDiFl7)**
-***MobX Properties :***
+    State in MobX = Core State + Derived State
 
- 1. Observables:
- _Observables_ are variables which represent the reactive-state of our application. They are also called ‘Event Generators’ because the state or value of an observable changes from time to time.
- 2. Actions:
- Actions are functions that decide how to mutate the Observables As a reason of this property, they are also called ‘Mutators’.
- 3. Computed Observables:
-   Computed Observables are values which depend upon observables and    get triggered when the observable they depend on, changes its state.
- 4. Observer:
- Observer Widgets are a special type of widget which acts as a listener to the observable properties being rendered on the screen, and simply changes the state and re-renders them whenever any change is observed.
+[![](https://camo.githubusercontent.com/0eac36b155d021cc99d5e023940b5aa2e7f39f08/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f31476762746b454775474a727871386d5f6a333570434b34776a556b765f2d444551315364574f7034493838536f34674a6c5443725768494b6f4d374371586c4c7334656e6d51555747617348755f5f4167465a493041416e534e6b574c2d74753238526c466347566656364b65304a6c4e3031465535456434433362436a577541574469466c37)](https://camo.githubusercontent.com/0eac36b155d021cc99d5e023940b5aa2e7f39f08/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f31476762746b454775474a727871386d5f6a333570434b34776a556b765f2d444551315364574f7034493838536f34674a6c5443725768494b6f4d374371586c4c7334656e6d51555747617348755f5f4167465a493041416e534e6b574c2d74753238526c466347566656364b65304a6c4e3031465535456434433362436a577541574469466c37)
+ _**MobX Properties :**_
 
-***Pros of MobX***::
--   UI logic and business logic are clearly separated
--  Code Maintainablity and Code Scalability is not a utmost concern as it      Automatically tack updates.
--  MobX Learning curve is much Easier than other state management.
--  MobX is customizable and gives flexibility to customize **observables**, according to your need to boost the performance and stability.
--  **MobX** is a **Battle tested** state management library **Transparently Functional Reactive programming** (TFRP). The design principle is very simple:Anything that can be derived from the Application state, should be derived Automatically : UI, data serialization, server communication, etc..
+1.  **Observables**:  _Observables_  are variables which represent the reactive-state of our application. They are also called ‘Event Generators’ because the state or value of an observable changes from time to time.
+2.  **Actions:** Actions are functions that decide how to mutate the Observables As a reason of this property, they are also called ‘Mutators’.
+3.  **Computed Observables:** Computed Observables are values which depend upon observables and get triggered when the observable they depend on, changes its state.
+4.  **Observer:** Observer Widgets are a special type of widget which acts as a listener to the observable properties being rendered on the screen, and simply changes the state and re-renders them whenever any change is observed.
 
-## React & MobX
+##  Mobx vs  Redux?
 
-`React` _and_  `MobX` _together are a Prominent combination._ `React` _renders the application state by providing mechanisms to translate it into a tree of renderable components whereas_ `MobX` _provides the mechanism to store and update the application state that React then further uses._
+ - **mobx** is a testing library to manage state with **TFRP** wheras **redux** uses **javascript** for state management.
+ - **mobx** is mainly written in **javascript** whereas **redux** is written in **ES6**
+ - **mobx** require more than one store for data storage whereas in **redux** one will do the work
+ - **mobx** is apt for small and simple applications whereas **redux** handles better complex and large ones .
+ - **mobx** is much more performance oriented than **redux**.
+ -    **mobx** is easier to learn and has a simple learning curve.
+-   In **mobX**, a lot of built-in abstraction is there which leads to less code. In Redux, there is less abstraction and a need to write more code.
+-   **mobx** is mainly used to develop the application fast and in less time. Redux developed applications generally take time because of its complexity
 
-_Both_ `React` _and_ `MobX` _provide optimal and unique solutions to common problems in Application development. React provides mechanisms to optimally render the UI by using a virtual DOM that reduces the number of costly DOM mutations._ `MobX` _provides mechanisms to optimally synchronize application state with_ `React` _components by using a reactive virtual dependency state graph that is only updated when strictly needed and is never stale._
+## **Pros of mobX :
 
-To read more about Mobx , see the official [documentation](https://pub.dev/packages/mobx).
-See our blog contribution on MobX , [mobx in flutter](https://medium.com/flutterdevs/working-with-mobx-in-flutter-6a56dbff7027)
+ - UI and Business Logic is clearly seperated from each other.
+ - Code maintainability is not needed.
+ - Less BoilerPlate Code is required.
+ - Easy to Learn and Use 
+ - Helps to speed up things quickly.
+ - Mobx is much more customizable and Performance oriented.
+ 
+
+## ******Cons of mobX :****
+ -   **Open to interpretation:**  if you have a large team working with MobX and you don’t enforce an architecture, this may lead to everyone doing things differently.
+-   **The isArray(ObservableArray) pitfall**: when you make an array “observable”, it will be wrapped in an ObservableArray object. So, if you want to pass that array to another component that validates for pure array inputs, you will get an error. For this reason, when you make arrays observables, you have to make sure to “purify” them by slicing them. You can read more about it in the [common pitfalls and best practices article](https://mobx.js.org/best/pitfalls.html).
+
+To read more about Mobx , see the official  [documentation](https://pub.dev/packages/mobx). See **FlutterDevs** blog contribution on MobX ,  **[mobx in flutter](https://medium.com/flutterdevs/working-with-mobx-in-flutter-6a56dbff7027)**
+
+## *****References :*****
+ - [https://mobx.js.org/README.html](https://mobx.js.org/README.html)
+ - [https://pub.dev/packages/mobx](https://pub.dev/packages/mobx)
+ - [https://github.com/mobxjs/mobx.dart](https://github.com/mobxjs/mobx.dart)
